@@ -31,6 +31,7 @@ The Sunrise and Sunset Checker App is a helpful tool for users who want to know 
 1. Run the app by executing the Python script.
    ```bash
    python sunrise_sunset_checker.py
+   ```
 2. Enter the location for which you want to check sunrise, sunset, and weather data.
 
 3. The app will provide you with the sunrise and sunset times, as well as the current temperature and wind speed.
@@ -44,16 +45,16 @@ Clone the repository to your local machine.
 
   ```bash
   git clone https://github.com/yourusername/sunrise-sunset-checker.git
+```
   Install the required Python packages.
-  ```
 
   ```bash
 pip install requests
 ```
 ## APIs Used
-Nominatim API: Used to obtain location coordinates.
-SunAPI: Provides sunrise and sunset data.
-Open Meteo API: Fetches current weather information.
+- Nominatim API: Used to obtain location coordinates.
+- SunAPI: Provides sunrise and sunset data.
+- Open Meteo API: Fetches current weather information.
 ## Contributing
 We welcome contributions! If you'd like to contribute to the Sunrise and Sunset Checker App, please check our Contribution Guidelines.
 
