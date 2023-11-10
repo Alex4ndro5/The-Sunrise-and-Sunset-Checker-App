@@ -44,7 +44,7 @@ Installation
 Clone the repository to your local machine.
 
   ```bash
-  git clone https://github.com/yourusername/sunrise-sunset-checker.git
+  git clone https://github.com/Alex4ndro5/The-Sunrise-and-Sunset-Checker-App.git
 ```
   Install the required Python packages.
 
