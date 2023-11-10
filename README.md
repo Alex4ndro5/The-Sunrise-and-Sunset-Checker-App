@@ -56,7 +56,7 @@ pip install requests
 - SunAPI: Provides sunrise and sunset data.
 - Open Meteo API: Fetches current weather information.
 ## Contributing
-We welcome contributions! If you'd like to contribute to the Sunrise and Sunset Checker App, please check our Contribution Guidelines.
+We welcome contributions!
 
 ## License
 This app is licensed under the MIT License. See the LICENSE file for more details.
