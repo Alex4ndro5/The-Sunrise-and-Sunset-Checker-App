@@ -29,4 +29,4 @@ wind = info['current_weather']['windspeed']
 srise = convert24(result['results']['sunrise'])
 sset = convert24(result['results']['sunset'])
 #Wynik
-print("Sunrise in %s is at %s and sunset at %s.\n The temperature is %d degrees Celsus and wind speed is %d km/h."%(location, srise, sset, temp, wind))
+print("The sunrise in %s is at %s and sunset at %s.\nThe temperature is %d degrees Celsus and wind speed is %d km/h."%(location, srise, sset, temp, wind))
