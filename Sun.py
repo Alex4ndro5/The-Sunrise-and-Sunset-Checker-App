@@ -8,7 +8,7 @@ def convert24(time):
     return t.strftime('%H:%M:%S')
 
 #Api zdobywajace lokacje
-location = input("Podaj miejsce:")
+location = input("Submit location:")
 getLocation = 'https://nominatim.openstreetmap.org/?addressdetails=1&q={}&format=json&limit=1'
 
 response = requests.get(getLocation.format(location)).json()
@@ -29,4 +29,4 @@ wind = info['current_weather']['windspeed']
 srise = convert24(result['results']['sunrise'])
 sset = convert24(result['results']['sunset'])
 #Wynik
-print("Wschód słońca w %s o %s, a zachód o %s.\nTemperatura wynosi %d stopni Celsjusza, a prędkość wiatru %d km/h."%(location, srise, sset, temp, wind))
+print("Sunrise in %s is at %s and sunset at %s.\n The temperature is %d degrees Celsus and wind speed is %d km/h."%(location, srise, sset, temp, wind))
